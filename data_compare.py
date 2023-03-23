@@ -25,4 +25,3 @@ diff = matched_from_old_pd_df.compare(matched_from_new_pd_df, align_axis=0, resu
 diff.to_csv("diff_file.csv", index=False)
 unmatched_old_df.to_csv("unmatched_old_df.csv", index=False)
 unmatched_new_df.to_csv("unmatched_new_df.csv", index=False)
-# testing.
